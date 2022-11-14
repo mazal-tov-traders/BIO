@@ -2,3 +2,278 @@
 @import '_global';
 @import '_fonts';
 
+
+
+
+// START HEADER 
+.header-top {
+  background-color: #222021;
+  
+
+}
+
+.header {
+  
+  padding-top: 50px;
+
+  &__menu {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__menu-box {
+    display: flex;
+    padding-right: 103px;
+    gap: 57px;
+    padding-top: 40px;
+
+  }
+
+  &__menu-link {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+  }
+}
+
+.logo-box {
+  display: flex;
+  gap: 6px;
+}
+
+.ic {
+  &_logo {
+    width: 84px;
+    height: 84px;
+    font-size: 80px;
+
+    border: 4px solid #f5f5f5;
+    border-radius: 11px;
+  }
+}
+
+.logo-name {
+  color: #f5f5f5;
+  font-size: 50px;
+  line-height: 43px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.header__imag {
+  width: 908px;
+  height: 1080px;
+  background: url(../images/Frame.png);
+  background-repeat: no-repeat; // уберает повтарение картинки
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 102px;
+
+
+}
+
+.header__menu-link:hover {
+  color: #A3B8D7;
+}
+
+//////////
+.header {
+  &__mid {
+    width: 1245px;
+    height: 715px;
+    background-color: #1E0C06;
+    display: flex;
+    margin-left: 95px;
+    margin-top: 84px;
+    border-radius: 43px 0px 0px 43px;
+    box-shadow: (-16px 0px 28px rgb(245 245 245 / 24%));
+
+    padding-left: 50px;
+  }
+}
+
+.left-wraper {
+  &__title {
+    font-size: 85px;
+    font-family: 'Prata', serif;
+
+    text-transform: uppercase;
+    padding-top: 75px;
+    line-height: 115px;
+    margin-right: 50px;
+  }
+
+  &__text {
+    padding-top: 22px;
+    color: #FFDBBB;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+    span {
+      color: #FFDBBB;
+      font-size: 30px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+    }
+  }
+
+  &__button {
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 220px;
+    height: 60px;
+    background-color: #728BAD;
+    border-radius: 55px;
+
+    cursor: pointer;
+    display: grid; //делаем бтн сеточьной что бы можно было отцентрировать 
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__btn {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.right-wraper {
+  border-left: 1px solid #FFDBBB;
+  height: 511px;
+  margin-top: 43px;
+}
+
+.imag1 {
+  width: 205px;
+  height: 205px;
+  background: url(../images/product1.png);
+  background-repeat: no-repeat; // уберает повтарение картинки
+  background-size: cover;
+  margin-top: 280px;
+  margin-left: 46px;
+}
+
+.right-wrapper-2 {
+  margin-left: 40px;
+}
+
+.imag2 {
+  margin-top: 50px;
+  width: 205px;
+  height: 205px;
+  background: url(../images/product2.png);
+  background-repeat: no-repeat; // уберает повтарение картинки
+  background-size: cover;
+}
+
+.imag3 {
+  margin-top: 200px;
+  width: 205px;
+  height: 205px;
+  background: url(../images/product3.png);
+  background-repeat: no-repeat; // уберает повтарение картинки
+  background-size: cover;
+}
+
+
+
+// END HEADER
+// START WORKWITH
+
+
+.workwith {
+  background-color: #222021;
+
+  &__title {
+    font-size: 90px;
+    font-family: 'Prata', serif;
+
+    text-transform: uppercase;
+    padding-top: 266px;
+    line-height: 135px;
+    padding-left: 243px;
+  }
+
+  &__wrapper {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__section {
+    width: 277px;
+    height: 540px;
+
+    &_img1 {
+      width: 205px;
+      height: 205px;
+      background: url(../images/oak.png);
+      background-repeat: no-repeat; // уберает повтарение картинки
+      background-size: cover;
+    }
+
+    &_name {
+      font-size: 30px;
+      padding: 33px 0 44px 76px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+    }
+
+    &_img2 {
+      width: 205px;
+      height: 205px;
+      background: url(../images/buk.png);
+      background-repeat: no-repeat; // уберает повтарение картинки
+      background-size: cover;
+    }
+
+    &_img3 {
+      width: 205px;
+      height: 205px;
+      background: url(../images/ash.png);
+      background-repeat: no-repeat; // уберает повтарение картинки
+      background-size: cover;
+    }
+  }
+}
+
+
+
+.icon-jackdaw {
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  color: #f5f5f5;
+
+}
+
+.icon-cross {
+  color: #f5f5f5;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+
+
+}
+
+.ic_krest {
+  margin-top: 30px;
+  color: #FFC099;
+  font-size: 25px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.ic_Vector {
+  margin-top: 30px;
+  gap: 12px;
+  color: #FFC099;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  
+}
+
+// END WORKWITH

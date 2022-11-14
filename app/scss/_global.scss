@@ -10,7 +10,7 @@ html {
 a{
   display: inline-block;
   text-decoration: none;
-  color: #414141;
+  color: #fff;
 }
 ul,
 li{
@@ -19,7 +19,10 @@ li{
   list-style: none;
 }
 .container{
-  max-width: 1170px;
+  max-width: 1450px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 5px;
+}
+body{
+  color: #f5f5f5;
 }

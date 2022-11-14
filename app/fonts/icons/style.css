@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?f7xnz7');
+  src:  url('fonts/icons.eot?f7xnz7#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?f7xnz7') format('truetype'),
+    url('fonts/icons.woff?f7xnz7') format('woff'),
+    url('fonts/icons.svg?f7xnz7#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic_arowleft:before {
+  content: "\e900";
+}
+.ic_krest:before {
+  content: "\e901";
+}
+.ic_loc:before {
+  content: "\e902";
+}
+.ic_logo:before {
+  content: "\e903";
+}
+.ic_phon:before {
+  content: "\e904";
+}
+.ic_Vector:before {
+  content: "\e905";
+}
